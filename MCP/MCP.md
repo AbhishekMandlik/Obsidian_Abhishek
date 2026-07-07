@@ -64,7 +64,6 @@ Adding a tool in mcp
 @mcp.tool()
 def add(a:int,b:int->int:
 	""" Add two Numbers """
-	
 	return a+b
 ```
 
