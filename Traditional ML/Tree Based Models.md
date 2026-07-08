@@ -1,4 +1,3 @@
-
 # Decision Trees
 A Decision Tree is a model that repeatedly asks questions to split data into smaller and purer groups.
 They try to maximise purity after every split.
@@ -38,12 +37,12 @@ Reduce correlation between trees <-> Reduce variance.
 Then we will combine the result. (Aggregation)
 Bootstrapping+Aggregation=Bagging
 
->Random Forest reduces overfitting by averaging predictions from multiple decorrelated decision trees trained on bootstrap samples.
+>Random Forest reduces overfitting by averaging predictions from multiple de-correlated decision trees trained on bootstrap samples.
 
 # XG - Boost
 Very Fast, Very Accurate, Takes care of bias-variance tradeoff (Immune to the curse of dimensionality)
 ```
-Trees built sequentially instead of like Random Forest wherre they are built independently.
+Trees built sequentially instead of like Random Forest where they are built independently.
 ```
 Tree 1 Predicts, Train Tree2 on mistakes
 #### Regularisation

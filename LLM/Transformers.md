@@ -15,29 +15,29 @@ The Transformer learns that **"it"** refers to **"the animal"**, even though the
 ## Architecture Overview
 
 ```
-Input Text
-     │
-Tokenization
-     │
-Token Embeddings
-     │
-Positional Encoding
-     │
+		Input Text
+			 │
+		Tokenization
+			 │
+		Token Embeddings
+			 │
+		Positional Encoding
+			 │
  ┌────────────────────────────┐
- │ Transformer Layers (N times)│
+ │ Transformer Layers(N times)│
  │                            │
  │ Multi-Head Self-Attention  │
- │        │                   │
+ │           │                │
  │   Add & LayerNorm          │
- │        │                   │
+ │           │                │
  │ Feed-Forward Network       │
- │        │                   │
+ │           │                │
  │   Add & LayerNorm          │
  └────────────────────────────┘
-     │
-Output Layer
-     │
-Predictions
+		     │
+		Output Layer
+		     │
+		Predictions
 ```
 
 ---

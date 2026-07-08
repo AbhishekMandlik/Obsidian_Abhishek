@@ -1,4 +1,3 @@
-
 Traditional NLP Pipeline.
 Text -> Tokenisation -> Stopword Removal -> Stemming/Lemmatisation -> Feature Extraction -> ML Model.
 1. Tokenisation - Split text into tokens. (It Depends on the Tokeniser).
@@ -6,6 +5,7 @@ Text -> Tokenisation -> Stopword Removal -> Stemming/Lemmatisation -> Feature Ex
 3. Stemming - Reduce word to root form.
    eg. running becomes run. It uses simple rule, so sometimes studies becomes "studi".
 4. Lemmatisation - Dictionary based word improvement. Better becomes good.
+
 
 ### Traditional Text Representation
 1. Bag of Words (BoW):
@@ -33,4 +33,3 @@ Text -> Tokenisation -> Stopword Removal -> Stemming/Lemmatisation -> Feature Ex
 		1. Rare Words.
 		2. Typos.
 		3. Morphological variations.
-4. 
