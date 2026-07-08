@@ -1,0 +1,1 @@
+It will be required if we solve a question in c++ and then interviewer asks what happens after you have written code in python how does the interpreter and garbage collector affect the time complexity.
