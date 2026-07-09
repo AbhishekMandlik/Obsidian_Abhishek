@@ -66,3 +66,5 @@ If product A sells what else should we be stocking.
 4. Seasonal demand prediction.
 5. Demand forecasting models
 To ensure complimentary products are also available together.
+
+This is connected to [[Conditional Probability-Bayesian]],[[Common business applications]],[[Customer Analytics, CRM Analytics, Recommendation Systems, and Marketing Data Science.]]

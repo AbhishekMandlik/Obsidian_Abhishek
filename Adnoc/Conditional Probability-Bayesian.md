@@ -1,0 +1,1 @@
+This is connected to [[Market Basket Analysis]],[[Common business applications]],[[Customer Analytics, CRM Analytics, Recommendation Systems, and Marketing Data Science.]]

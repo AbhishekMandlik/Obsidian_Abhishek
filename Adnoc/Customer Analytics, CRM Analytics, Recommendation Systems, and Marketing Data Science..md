@@ -1,4 +1,4 @@
-
+ 
 
 ### 1. Affinity
 How strongly two products, services or behaviours are associated with each other. It tries to capture a meaningful relationship between two products.
@@ -57,18 +57,116 @@ Types of recommendation models:
 
 ### 6. Next Best Offer (NBO)
 A business decision problem:
+Choose the single best product or service to recommend next.
+It combines:
+1. Propensity score.
+2. Customer value.
+3. Business rules.
+4. product eligibility.
+
+### 7. Next Best Action (NBA)
+Bit broader than NBO it recommends the best action that has to be done.
+Possible actions:
+- Offer discount
+- Send reminder
+- Escalate to support
+- Do nothing
+- Recommend a product
+- Schedule a call
+If a customer is likely to churn then offer a retention discount.
+
+### 8. Customer Segmentation
+Divide customers into groups with similar characteristics as different customers require different marketing strategies.
+Methods:
+1. Rule-based:
+	1. Age
+	2. Income
+	3. Region
+2. Machine Learning
+	1. K-means
+	2. Hierarchical Clustering
+	3. DBSCAN
+	4. Gaussian Mixture Models
+Important for targeted campaigns
+
+### 9. RFM Analysis
+One of the simplest and most effective segmentation methods
+1. Recency
+2. Frequency
+3. Monetary
+Typical Segments
+- Champions
+- Loyal Customers
+- Potential loyalists
+- At-risk
+- Lost customers
+
+### 10. Customer Lifetime Value
+The expected total profit or revenue from a customer over the entire relationship.
+```
+CLV = Average purchase Value x Purchases per year x Customer Lifetime
+```
+Businesses often prioritise high CLV customers
+
+### 11. Uplift Modelling
+Who will buy because of the campaign?
+This distinction matters because some customers would have purchased anyway.
+Common approaches:
+- Two-model approach
+- Uplift trees
+- Causal forests
+- Meta-learners (e.g., T-learner, X-learner)
 
 
+### 12. Personalisation
+Tailoring content, offers or experiences to an individual user.
+Personalisation can use:
+- Demographics
+- Past purchases
+- Search history
+- Device
+- Location
+- Time of day
+- Context
+- Recommendation models
+- Large language models for personalised content
 
 
-
-
-
-
-
-
-
-
+### How these concepts connect
+```
+                Customer Data
+                     │
+                     ▼
+          Customer Segmentation
+                     │
+                     ▼
+               RFM Analysis
+                     │
+                     ▼
+             Propensity Modeling
+                     │
+         ┌───────────┴───────────┐
+         ▼                       ▼
+   Affinity Analysis      Recommendation System
+         │                       │
+         ▼                       ▼
+   Market Basket         Personalized Suggestions
+         │
+         ▼
+Support • Confidence • Lift
+         │
+         ▼
+   Next Best Offer (NBO)
+         │
+         ▼
+   Next Best Action (NBA)
+         │
+         ▼
+  Measure Uplift & Business Impact
+         │
+         ▼
+ Increase CLV through Personalization
+```
 
 
 
@@ -100,3 +198,21 @@ A business decision problem:
 | **Acceptance Rate**                   | Percentage of recommendations accepted                      | 35% accepted the cross-sell offer.                       |
 | **Uplift Modeling**                   | Predicts incremental impact of an intervention              | Identify customers who buy _because_ of the campaign.    |
 | **Response Modeling**                 | Predicts who will respond to a campaign                     | Estimate email campaign responders.                      |
+This is related to [[Customer Analytics, CRM Analytics, Recommendation Systems, and Marketing Data Science.]], [[Market Basket Analysis]], [[Common business applications]]
+
+
+
+## Example: End-to-end e-commerce scenario
+
+Imagine an online electronics store:
+
+1. **Customer Segmentation** groups users into "students", "professionals", and "gamers".
+2. **RFM Analysis** identifies a professional who shops frequently and spends a lot.
+3. A **Propensity Model** predicts an 88% chance they'll buy a wireless mouse after purchasing a laptop.
+4. **Market Basket Analysis** shows laptops and wireless mice have high **Affinity**, with strong **Support**, **Confidence**, and **Lift**.
+5. The **Recommendation System** surfaces three compatible mice.
+6. The **Next Best Offer** is a premium wireless mouse with a 10% discount.
+7. The **Next Best Action** is to send that offer via email within 24 hours of the laptop purchase.
+8. The email content is **Personalized** using the customer's browsing history.
+9. An **Uplift Model** determines this customer is likely to buy _because_ of the discount, making the campaign worthwhile.
+10. The successful cross-sell increases the customer's **Customer Lifetime Value (CLV)**.

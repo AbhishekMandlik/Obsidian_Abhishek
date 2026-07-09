@@ -110,3 +110,4 @@ Support too high, Miss useful niche products, Need balance.
 - Large supermarket: Higher support may be reasonable.
 - Luxury retailer: Lower support may still uncover profitable relationships.
 
+This is related to [[Customer Analytics, CRM Analytics, Recommendation Systems, and Marketing Data Science.]], [[Conditional Probability-Bayesian]],[[Common business applications]].
