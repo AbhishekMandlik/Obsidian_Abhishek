@@ -67,4 +67,4 @@ If product A sells what else should we be stocking.
 5. Demand forecasting models
 To ensure complimentary products are also available together.
 
-This is connected to [[Conditional Probability-Bayesian]],[[Common business applications]],[[Customer Analytics, CRM Analytics, Recommendation Systems, and Marketing Data Science.]]
+This is connected to [[Advanced Bayesian Concepts]],[[Common business applications]],[[Customer Analytics, CRM Analytics, Recommendation Systems, and Marketing Data Science.]]

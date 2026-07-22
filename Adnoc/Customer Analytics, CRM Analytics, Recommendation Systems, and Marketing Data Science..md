@@ -1,5 +1,3 @@
- 
-
 ### 1. Affinity
 How strongly two products, services or behaviours are associated with each other. It tries to capture a meaningful relationship between two products.
 

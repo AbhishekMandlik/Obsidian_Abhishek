@@ -75,6 +75,7 @@ Drawbacks:
 ### 7. FP - Growth
 Avoids repeated database scans which makes it faster than that of Apriori.
 It uses FP Tree. (Frequent Pattern Tree)
+This is a trie data structure:
 > FP-Growth is generally faster than Apriori because it compresses transactions into a tree instead of generating many candidate itemsets.
 
 Intuition: Suppose many customers buy: one itemset these prefixes are stored in a tree rather than repeated for every transaction, Compressions reduce memory usage and the number of database scans.
@@ -110,4 +111,4 @@ Support too high, Miss useful niche products, Need balance.
 - Large supermarket: Higher support may be reasonable.
 - Luxury retailer: Lower support may still uncover profitable relationships.
 
-This is related to [[Customer Analytics, CRM Analytics, Recommendation Systems, and Marketing Data Science.]], [[Conditional Probability-Bayesian]],[[Common business applications]].
+This is related to [[Customer Analytics, CRM Analytics, Recommendation Systems, and Marketing Data Science.]], [[Advanced Bayesian Concepts]],[[Common business applications]].
