@@ -1,0 +1,6 @@
+- [ ] XGBoost/LightGBM, clustering
+- [x] **Model evaluation** — precision/recall, ROC-AUC, cross-validation, bias-variance tradeoff
+- [x] **Feature engineering** — handling missing data, encoding, scaling
+- [x] **Data visualisation** — matplotlib/ seaborn, and a BI tool like Tableau or Power BI (useful for corporate roles)
+- [x] **Experimentation** — A/B testing design, causal inference basics
+- [ ] **Scikit-Learn** as your main modelling library.
